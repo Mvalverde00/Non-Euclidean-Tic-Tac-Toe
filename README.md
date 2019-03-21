@@ -16,7 +16,9 @@ This project was created in a day, after learning about Tic-Tac-Torus in my Numb
 ### An Interesting Problem
 When trying to dynamically find all solutions for an n-by-n board, I initially had some difficulties.  My first thought was to consider a 3x3 board, and observe that the sum of any diagonal, straight or broken is constant:
 0|1|2
+
 3|4|5
+
 6|7|8
 
 0+4+8 = 2+4+6 = 0+5+7 = 1+5+6... = 12
